@@ -1,11 +1,13 @@
-# TutorialAngularHttpclient
+# Angular Testing Tricks
+
+This repo contains source for generating assets used by JavaScript KC Lightning Talks (Dec 12 2017).
+
+
+The slides will be shared after the presentation.
+
 
 A working version of the application can be found at [https://alisaduncan.github.io/tutorial-angular-httpclient/](https://alisaduncan.github.io/tutorial-angular-httpclient/)
 
-
-This project was an opportunity for me to play with Angular, RxJS, and Material. The app calls [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API to retrieve users and POST a new user. The code contains examples on utilizing Angular's HttpClient and corresponding unit tests. Unit tests for the view have been disabled for now.
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
 
 ## Prerequisites
 
@@ -17,6 +19,7 @@ Run `npm start` to start the application. It will automatically open a browser w
 
 ## Running Tests
 
-Run `npm run tests` to run the unit tests in watch mode. Run `npm run tests -- --single-run` to run the test just once.
+Run `npm run tests` to run the unit tests. 
 
-e2e tests are not supported yet.
+
+Run `npm run e2e` to run the e2e tests. 
